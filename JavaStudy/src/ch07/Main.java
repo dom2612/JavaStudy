@@ -7,11 +7,11 @@ public class Main {
 		 human.setName("김");
 		 human.setType('O');
 		 human.setAge(20);
+		 /* BloodHouse 객체 생성 */
 		 BloodHouse bh = new BloodHouse();
 		 
 
 
-		 /* BloodHouse 객체 생성 */
 		 String result = ""; // action() 메소드 호출 결과 저장
 		 result = bh.action(human);
 		 /* action() 메소드를 호출하면서 매개변수로 헌혈자 정보 넘겨줌 */
