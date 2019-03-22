@@ -12,7 +12,7 @@ public class Human {
 			this.type = type;
 		}
 		public String getName() {
-			return name;
+			return name; //void없으면 리턴
 		}
 		public void setName(String name) {
 			this.name = name;
